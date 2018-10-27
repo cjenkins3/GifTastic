@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: lightgrey;
+    font-family: Acme;
+}
+.container {
+    float: right;
+    margin: 10em 18em;
+}
+#form {
+    font-size: 15pt;
+}
+#addShow {
+    margin: 2px auto;
+    padding: 5px 10px;
+    border-radius: 2%;
+    background: lightseagreen;
+    border-color: lightseagreen;
+    font-family: Acme;
+    font-size: 13pt;
+}
+#show-input {
+    padding: 2px;
+    width: 250%;
+}
+button {
+    padding: 5px 10px;
+    border-radius: 3%;
+    background: lightseagreen;
+    border-color: lightseagreen;
+    font-family: Acme;
+    font-size: 13pt;
+    margin: 3px;
+}
+#buttons-view {
+    text-align: center;
+    margin-top: 8px;
+    
+}
